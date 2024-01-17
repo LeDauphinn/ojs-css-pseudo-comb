@@ -18,9 +18,23 @@ p.task-2::first-line {
   background-color: blue;
 }
 
-.task-2.bg-selection::selection{
+p.bg-selection::selection {
   background-color: green;
 }
 
+.task-2.bg-selection.bg-first-letter::first-letter {
+  background-color: red;
+}
 
+::-webkit-scrollbar {
+  width: 30px;
+}
 
+::-webkit-scrollbar-track {
+  background-color: #1221fc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f53000;
+  border-radius: 20px;
+}
